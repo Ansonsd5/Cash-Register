@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cash Register App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h2>Cash Register Manager</h2>
+    <p class="container">Enter the bill amount and cash given by the customer and get the mininum Number of notes to be
+        return back</p>
+
+    <label for="billAmount"> Enter thye Bill Amount: </label>
+    <input type="number" class="billAmount">
+    <label for="cashGiven"> Cash given: </label>
+    <input type="text" class="cashGiven">
+    <label for="">
+        <button class="btnCheck">Check</button>
+    </label>
+    <caption>Return Change</caption>
+    <hr>
+
+    <table>
+        <tr>
+            <th>No of Notes</th> 
+            <td class="notesTobereturned"></td>
+           
+            
+        </tr>
+        <tr>
+           <th>Notes</th>
+           <td>2000</td>
+           <td>500</td>
+           <td>100</td>
+           <td>20</td>
+           <td>10</td>
+           <td>5</td>
+           <td>1</td>
+          
+        </tr>
+
+    </table>
+</body>
+<script src="logic.js"></script>
+
+</html>
