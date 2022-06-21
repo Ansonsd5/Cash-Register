@@ -1,3 +1,86 @@
+:root{
+    background-color: #E9D8FD;
+    text-align: center;
+   
+    
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Gelasio&family=Montserrat:ital,wght@0,400;1,300&family=Source+Sans+Pro:wght@300&display=swap');
+
 label{
     display: block;
 }
+ header{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    text-align: center;
+ }
+
+section{
+    margin: 1rem;
+    padding: 1rem;
+    background-color:#EDF2F7 ;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-radius: .5rem;
+
+}
+
+.input-div{
+   margin-left: 20%;
+   margin-right: 20%;
+}
+
+input,label{
+    margin: .5rem;
+    padding: .5rem;
+    margin-left: 20%;
+    margin-right: 20%;
+
+}
+
+input{
+    
+    border-radius: .3rem;
+    border-color: slategray;
+    text-align: center;
+    background-color: #EDF2F7;
+}
+
+caption{
+    margin: 1rem;
+    padding: 2rem;
+    text-align: center;
+}
+table{
+    /* display: inline-table; */
+    text-align: center;
+    margin: 1rem;
+    border:solid;
+    padding: 1rem;
+    background-color: #EDF2F7;
+   
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+th, td {
+    padding: 15px;
+    text-align: left;
+  }
+
+  #error-message{
+    display: none;
+    background-color: #F687B3;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 1rem;
+  }
+
+
+  
+  
+ 

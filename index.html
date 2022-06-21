@@ -8,26 +8,43 @@
     <title>Cash Register App</title>
     <link rel="stylesheet" href="style.css">
 </head>
-
-<body>
+<header>
     <h2>Cash Register Manager</h2>
-    <p class="container">Enter the bill amount and cash given by the customer and get the mininum Number of notes to be
-        return back</p>
-
-    <label for="billAmount"> Enter thye Bill Amount: </label>
+</header>
+<body>
+    <section>
+        <p class="container">Enter the bill amount and cash given by the customer and get the mininum Number of notes to be
+            return back</p>
+    </section>
+    
+    <div class="input-div">
+    <label for="billAmount"> Enter the Bill Amount: </label>
     <input type="number" id="billAmount">
-    <label for="cashGiven"> Cash given: </label>
-    <input type="text" id="cashGiven">
+    <label for="cashGiven"> Cash given </label>
+    <input type="number" id="cashGiven">
     <label for="">
-        <button class="btnCheck">Check</button>
+        
+        <button class="btnCheck bg-blue-500 text-white font-bold py-2 px-4 rounded opacity-50 cursor-not-allowed">
+           Check
+          </button>
     </label>
-    <caption>Return Change</caption>
-    <hr>
 
-    <table>
+    <p id="error-message"></p>
+    <caption>Return Change</caption>
+</div>
+  
+
+    <table class="center">
         <tr>
             <th>No of Notes</th> 
             <td class="notesTobereturned"></td>
+            <td class="notesTobereturned"></td>
+            <td class="notesTobereturned"></td>
+            <td class="notesTobereturned"></td>
+            <td class="notesTobereturned"></td>
+            <td class="notesTobereturned"></td>
+            <td class="notesTobereturned"></td>
+
            
             
         </tr>
