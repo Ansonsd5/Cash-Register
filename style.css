@@ -21,8 +21,8 @@ section {
     margin: 1rem;
     padding: 1rem;
     background-color: #EDF2F7;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 40%;
+    margin-right: 40%;
     border-radius: .5rem;
 
 }
@@ -77,14 +77,21 @@ td {
     padding: 15px;
     text-align: left;
    
+   
+}
+th{
+    background-color:#E9D8FD;
+    margin: 0px;
 }
 
 #error-message {
     display: none;
-    background-color: #F687B3;
+    background-color: #EDF2F7;
     margin: 1rem;
-    padding: 1rem;
+    padding: .5rem;
     border-radius: 1rem;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
 .body-div {
